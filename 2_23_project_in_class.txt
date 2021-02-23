@@ -1,0 +1,18 @@
+
+What research question do you want to answer?
+Does the concussion that Antonio Brown received from his hit by Burfict change his behavior?
+
+What are two possible answers?
+2 possible answers include yes, his behavior did change after getting the concussion or no, it didn't change.
+
+What are the documents of text data you will analyze?
+I plan to use his tweets from before that concussion and after.
+
+
+
+Give two examples of documents in the corpus that you expect will be high in similarity to each other? Two examples that are *low* in similarity?
+I expect that his documents that are only one word or 2 words in length and tweets that use the same type of words/sayings like "Business is booming", will have high similarity. I expect that documents that are one word in length compared with documents that have a lot of words will have low similarity. Also, I expect the documents from around the time when he was suspeneded from the NFL/let go from his teams for his behavior to use very different language than he did before that time.
+
+
+
+

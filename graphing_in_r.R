@@ -189,6 +189,8 @@ ggplot(mpg, aes(x = displ, y = hwy)) +
 
 md <- dfm(data_char_mobydick, remove = stopwords('english'),  remove_punct = TRUE)
 
+m <- dfm(data_char_mobydick)
+typeof(m)
 mdFeatures <- topfeatures(md, 100)
 topMD <- data.frame(
   list(
@@ -200,6 +202,10 @@ topMD <- data.frame(
 head(topMD)
 topMD$term <- with(topMD, reorder(term, -frequency))
 
-ggplot(topMD) + geom_point(aes(x=term, y=frequency), color = "blue") +
+ggplot(topMD, aes(x=rank, y= frequency)) +
+  geom_point(aes(color = "blue")) +
+  geom_smooth()
+
+ggplot(topMD) + geom_point(aes(x=terms, y=frequency)) + geom_smooth(aes(color = "blue")) + 
   theme(axis.text.x=element_text(angle=90, hjust=1))
 ##
